@@ -75,19 +75,6 @@ a {
   float: left;
 }
 
-@media only screen and (min-width: 480px) {
-  .post-title {
-    font-size:1.5em;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .post-title {
-    font-size:2.5em;
-  }
-}
-
-
 .post-title a {
   color: #000;
 }
