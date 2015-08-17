@@ -197,7 +197,7 @@ mark {
 }
 
 sub, sup {
-  font-size: 100%;
+  font-size: 75%;
   line-height: 0;
   position: relative;
   vertical-align: baseline;
@@ -260,7 +260,7 @@ td {
   }
 
   body {
-    font-size:12pt;
+    font-size:20px;
     max-width:100%;
   }
 
