@@ -197,7 +197,7 @@ mark {
 }
 
 sub, sup {
-  font-size: 75%;
+  font-size: 100%;
   line-height: 0;
   position: relative;
   vertical-align: baseline;
