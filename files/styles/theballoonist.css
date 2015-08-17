@@ -29,6 +29,7 @@ a {
 #blog-title {
   font-family: 'Lato', sans-serif;
   font-weight: bold;
+  font-size: 2.5em;
   margin: 0px 0px 20px 0px;
   position: relative;
   display: table;
@@ -40,19 +41,6 @@ a {
   background-size: cover;
   overflow: hidden;
 }
-
-@media only screen and (min-width: 480px) {
-  #blog-title {
-    font-size:2em;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  #blog-title {
-    font-size:3em;
-  }
-}
-
 
 #blog-title a {
   color: #000;
