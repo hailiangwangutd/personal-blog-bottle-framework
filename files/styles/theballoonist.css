@@ -104,19 +104,7 @@ a {
   text-align: center;
   background-size: cover;
   overflow: hidden;
-
-}
-
-@media only screen and (min-width: 480px) {
-  #blog-title {
-      font-size:2.5em;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  #blog-title {
-    font-size:2.5em;
-  }
+  font-size:2em;
 }
 
 #blog-title a {
