@@ -26,6 +26,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    margin-bottom: 3rem;
 }
 .top {
     width: 150px;
@@ -40,18 +41,18 @@ body {
 .username {
     font-size: 12px;
     margin-bottom: 30px;
+    margin-left: 5px;
+    margin-right:5px;
     text-align: left;
-    margin-left: auto;
-    margin-right: auto;
 }
 .name {
     font-size: 17px;
     white-space: nowrap;
     overflow: hidden;
     margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right:5px;
     text-align: left;
-    margin-left: auto;
-    margin-right: auto;
 }
 .bio {
     font-size: 11px;
@@ -59,12 +60,14 @@ body {
     height: 70px;
     overflow: hidden;
     line-height: 16px;
+    margin-left: 5px;
+    margin-right:5px;
     text-align: left;
-    margin-left: auto;
-    margin-right: auto;
 }
 .accounts {
     margin-bottom: 15px;
+    margin-left: 5px;
+    margin-right:5px;
     text-align: left;
 }
 
