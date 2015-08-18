@@ -106,9 +106,9 @@ a {
   overflow: hidden;
 }
 
-@media only screen and (min-width: 380px) {
+@media only screen and (min-width: 480px) {
   #blog-title {
-    font-size:2em;
+    font-size:2.5em;
   }
 }
 
