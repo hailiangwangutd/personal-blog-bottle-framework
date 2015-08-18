@@ -26,13 +26,13 @@ a {
 
 @media only screen and (min-width: 480px) {
   #body-wrapper {
-    width: 85%;
+    width: 80%;
   }
 }
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 768px) {
   #body-wrapper {
-    width: 80%;
+    width: 70%;
   }
 }
 
