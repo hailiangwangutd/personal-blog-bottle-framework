@@ -10,7 +10,21 @@
 <body>
 <div id="body-wrapper">
 <div id="blog-title"><a href="/">{{title}}</a></div>
-<div class="card">helloWorld</div>
+<div class="card">
+  <div class="top">
+    <div class="avatar-container mask-roundrecttop-200x175" id="user-ryanshea">  
+      <img src="https://s3.amazonaws.com/97p/tux.jpg">
+    </div>
+  </div>
+  <div class="bottom">
+    <div class="name"> 
+      <a href="https://onename.com/ryanshea" target="_blank">Ryan Shea</a> 
+    </div> 
+    <div class="bio"> 
+      Co-founder of Onename with @Muneeb. Bitcoin, identity, the blockchain, and decentralization. 
+    </div> 
+  </div>
+</div>
 % for post in posts:
   <div class="post">
     <div class="post-title">
