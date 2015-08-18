@@ -127,10 +127,10 @@ a {
 
 /** Markdown *****************************************************************/
 
-::-moz-selection{background:rgba(255,255,0,0.3);color:##D6EDFF;}
+::-moz-selection{background:rgb(255,255,0,0.3);color:#000;}
 ::selection{background:rgba(255,255,0,0.3);color:#000}
 
-a::-moz-selection{background:rgba(255,255,0,0.3);color:##D6EDFF;}
+a::-moz-selection{background:rgb(255,255,0,0.3);color:#000;}
 a::selection{background:rgba(255,255,0,0.3);color:#000}
 
 img {
