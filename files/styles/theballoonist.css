@@ -92,7 +92,7 @@ a {
 
 
 #blog-title {
-  font-family: 'Merriweather', serif;
+  font-family: 'Merriweather', sans-serif;
   font-weight: bold;\
   margin: 0px 0px 20px 0px;
   position: relative;
@@ -104,6 +104,7 @@ a {
   text-align: center;
   background-size: cover;
   overflow: hidden;
+  font-size:2.5em;
 }
 
 @media only screen and (min-width: 480px) {
