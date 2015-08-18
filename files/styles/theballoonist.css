@@ -128,10 +128,10 @@ a {
 /** Markdown *****************************************************************/
 
 ::-moz-selection{background:rgb(214, 237, 255);color:#000;}
-::selection{background:rgb(214, 237, 255);color:#D6EDFF}
+::selection{background:rgb(214, 237, 255);color:#000}
 
 a::-moz-selection{background:rgb(214, 237, 255);color:#000;}
-a::selection{background:rgb(214, 237, 255);color:#D6EDFF}
+a::selection{background:rgb(214, 237, 255);color:#000}
 
 img {
   max-width:100%;
