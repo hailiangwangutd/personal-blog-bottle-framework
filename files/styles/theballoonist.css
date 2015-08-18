@@ -93,7 +93,7 @@ a {
 
 #blog-title {
   font-family: 'Lato', sans-serif;
-  font-weight: bold;
+  font-weight: bold;\
   margin: 0px 0px 20px 0px;
   position: relative;
   display: table;
@@ -108,13 +108,13 @@ a {
 
 @media only screen and (min-width: 480px) {
   #blog-title {
-    font-size:2rem;
+    font-size:1.5em;
   }
 }
 
 @media only screen and (min-width: 768px) {
   #blog-title {
-    font-size:3rem;
+    font-size:2.5em;
   }
 }
 

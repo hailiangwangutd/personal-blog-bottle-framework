@@ -1,6 +1,6 @@
 # TITLE / SUBTITLE / AUTHOR
 # The title, subtitle, and author of the blog
-TITLE = "Neal's Blog"
+TITLE = "Neal Wang's Blog"
 SUBTITLE = ""
 AUTHOR = "Neal Wang"
 METADATA_TAGS = ['title', 'author']
