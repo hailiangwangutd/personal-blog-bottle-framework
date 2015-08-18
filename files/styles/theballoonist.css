@@ -25,6 +25,7 @@ body {
     vertical-align: baseline;
     margin-left: auto;
     margin-right: auto;
+    display: block;
 }
 .top {
     width: 150px;
@@ -40,6 +41,8 @@ body {
     font-size: 12px;
     margin-bottom: 30px;
     text-align: left;
+    margin-left: auto;
+    margin-right: auto;
 }
 .name {
     font-size: 17px;
@@ -47,6 +50,8 @@ body {
     overflow: hidden;
     margin-bottom: 5px;
     text-align: left;
+    margin-left: auto;
+    margin-right: auto;
 }
 .bio {
     font-size: 11px;
@@ -55,6 +60,8 @@ body {
     overflow: hidden;
     line-height: 16px;
     text-align: left;
+    margin-left: auto;
+    margin-right: auto;
 }
 .accounts {
     margin-bottom: 15px;
