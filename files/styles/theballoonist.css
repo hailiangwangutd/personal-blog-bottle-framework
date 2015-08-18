@@ -12,6 +12,7 @@ body {
   max-height: 100%;
   color: #000;
   background: #fff;
+
 }
 
 .card {
@@ -21,7 +22,7 @@ body {
     border-style: solid;
     border-color: rgba(230,230,230,1);
     background: white;
-    text-align: center;
+    vertical-align: baseline;
 }
 .top {
     width: 150px;
@@ -36,14 +37,14 @@ body {
 .username {
     font-size: 12px;
     margin-bottom: 30px;
-    text-align: center;
+    text-align: left;
 }
 .name {
     font-size: 17px;
     white-space: nowrap;
     overflow: hidden;
     margin-bottom: 5px;
-    text-align: center;
+    text-align: left;
 }
 .bio {
     font-size: 11px;
@@ -51,11 +52,11 @@ body {
     height: 70px;
     overflow: hidden;
     line-height: 16px;
-    text-align: center;
+    text-align: left;
 }
 .accounts {
     margin-bottom: 15px;
-    text-align: center;
+    text-align: left;
 }
 
 a {
