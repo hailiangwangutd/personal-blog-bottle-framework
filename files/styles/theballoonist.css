@@ -127,7 +127,7 @@ a {
 
 .post-date {
   text-align: right;
-  font-size: 10px;
+  font-size: 15px;
   float: right;
   margin: 10px 0px 0px 0px;
 }
@@ -158,7 +158,7 @@ a {
 
 .post-author {
   clear: both;
-  font-size: 10px;
+  font-size: 15px;
   color: #000;
 }
 
