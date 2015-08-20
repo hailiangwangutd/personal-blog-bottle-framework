@@ -13,13 +13,21 @@
 
 <div id="blog-title"><a href="/">{{title}}</a></div>
 
+<script type="javascript">
+    function myUrl(dom, path, tail){
+    var s = dom + path + tail;
+    location.src=s;
+}
+</script>
+
+
 <div class="post">
   <div class="post-title">{{post.meta['title']}}</div>
   <div class="post-date">{{post.date.strftime('%B %d, %Y')}}</div>
   <div class="post-author">{{post.meta['author']}}</div>
   <div class="post-body">{{!post.contents}}</div>
   <div class="avatar-container mask-roundrecttop-200x175">  
-      <img src="https://github.com/hailiangwangutd/demoPics/blob/master/"{post.meta['title']}".gif?raw=true">
+      <img src=myUrl("https://github.com/hailiangwangutd/demoPics/blob/master/",{{post.meta['title']}},".gif?raw=true")>
     </div>
 </div>
 
