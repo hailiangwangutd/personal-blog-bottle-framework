@@ -13,11 +13,13 @@
 
 <div id="blog-title"><a href="/">{{title}}</a></div>
 
-<script type="javascript">
-    function myUrl(dom, path, tail){
-    var s = dom + path + tail;
-    location.src=s;
-}
+<script type = "javascript">
+    function imgUrl(){
+        var dom = "https://github.com/hailiangwangutd/demoPics/blob/master/"
+        var path = "{{post.meta['title']}}"
+        var tail = ".gif?raw=true"
+        var s = dom + path + tail;
+    }
 </script>
 
 
@@ -27,7 +29,7 @@
   <div class="post-author">{{post.meta['author']}}</div>
   <div class="post-body">{{!post.contents}}</div>
   <div class="avatar-container mask-roundrecttop-200x175">  
-      <img src=myUrl("https://github.com/hailiangwangutd/demoPics/blob/master/",{{post.meta['title']}},".gif?raw=true")>
+      <img src="javaScript:imgUrl()">
     </div>
 </div>
 
