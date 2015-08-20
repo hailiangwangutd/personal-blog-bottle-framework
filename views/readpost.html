@@ -14,7 +14,11 @@
   }
   function displaydate()
   {
-      return "https://github.com/hailiangwangutd/demoPics/blob/master/Google-News-Crawler.gif?raw=true";
+      var base = "https://github.com/hailiangwangutd/demoPics/blob/master/"
+      var name = {{post.meta['title']}}
+      var tail = ".gif?raw=true"
+      var fullUrl = base + name + tail
+      return fullUrl;
   }
   </script>
 </head>
