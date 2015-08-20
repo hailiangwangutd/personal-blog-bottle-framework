@@ -13,19 +13,18 @@
 
 <div id="blog-title"><a href="/">{{title}}</a></div>
 
-<script type = "javascript">
-    function imgUrl(){
-        var dom = "https://github.com/hailiangwangutd/demoPics/blob/master/"
-        var path = "{{post.meta['title']}}"
-        var tail = ".gif?raw=true"
-        var s = dom + path + tail;
-        alert(s)
-        return s
-    }
-</script>
-
-
 <div class="post">
+
+  <script type = "text/javascript">
+      function imgUrl(){
+          var dom = "https://github.com/hailiangwangutd/demoPics/blob/master/"
+          var path = "{{post.meta['title']}}"
+          var tail = ".gif?raw=true"
+          var s = dom + path + tail;
+          return s
+      }
+  </script>
+
   <div class="post-title">{{post.meta['title']}}</div>
   <div class="post-date">{{post.date.strftime('%B %d, %Y')}}</div>
   <div class="post-author">{{post.meta['author']}}</div>
