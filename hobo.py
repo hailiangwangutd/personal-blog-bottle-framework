@@ -169,6 +169,7 @@ def readpost(yy, mm, dd, slug):
     post = POSTS[locator]
     return {'title': TITLE,
             'post': post,
+            'subtitle': SUBTITLE,
             'disqus_shortname': DISQUS_SHORTNAME}
 
 
