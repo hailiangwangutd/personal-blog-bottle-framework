@@ -47,7 +47,7 @@ body {
 }
 @media only screen and (min-width: 480px) {
   .blog-pic {
-    width: 100%;
+    width: 120%;
   }
 }
 @media only screen and (min-width: 768px) {
