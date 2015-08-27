@@ -1,6 +1,6 @@
 Google News Crawler was designed for collecting most recently news in Google.
  
-You may type in key words and how many pages to download. By just click 'search' button, then news would download at the same directory with the program, in txt format seperately.
+You may type in key words and how many pages to download. By just click 'search' button, then news would download at the same directory with the program, in txt format separately.
 
 How to use: 
 
@@ -9,3 +9,5 @@ How to use:
 3. type in key words and page, then search.
 
 Note: Google is smart, I am not responsible for your IP being blocked(usually couple of minutes), if you download plenty of news.
+
+Below is the Google News Crawler demo.
