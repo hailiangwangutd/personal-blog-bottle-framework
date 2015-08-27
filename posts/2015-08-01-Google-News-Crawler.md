@@ -8,4 +8,4 @@ How to use:
 2. run googleCrawlerPython3.py;                                                                       
 3. type in key words and page, then search.
 
-Note: Google is smart, I am not responsble for your IP being blocked(usually couple of minutes), if you download plenty of news.
+Note: Google is smart, I am not responsible for your IP being blocked(usually couple of minutes), if you download plenty of news.
