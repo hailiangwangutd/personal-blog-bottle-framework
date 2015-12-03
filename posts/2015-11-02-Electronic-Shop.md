@@ -1,0 +1,3 @@
+This project provides an application that provides a lits of electronic shops with a variety of categories as well as provide a user registration and authentication system. Registered users will have the ability to post, edit and delete their own items.
+
+This project uses python 2.7.9, the flask framework, an sqlite db and facebook and google 3rd party authentication API's to create a webapp to display and update shop and item menus.
