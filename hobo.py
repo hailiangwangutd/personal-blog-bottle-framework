@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ###############################################################################
 #     Copyright (c) 2012 Andrew Nelder.  Licensed under the MIT License.      #
 #                  See LICENSE.txt for full details.                          #
@@ -7,6 +8,8 @@
 # I M P O R T S ###############################################################
 
 
+=======
+>>>>>>> ec0f3440d7ea54c7fbe92a1b1051c6b4e373c5f9
 import logging
 import re
 import os
